@@ -1,0 +1,55 @@
+/* mobile 375px */
+
+@media (max-width: 825px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        position: static;
+        transform: translate(0, 0);
+        margin-top: 50px;
+        margin: 50px auto;
+        max-width: 312px;
+        min-width: 312px;
+    }
+
+    .colum {
+        width: 100%;
+        height: 100%;
+        min-height: 400px;
+        padding: 45px 30px;
+    }
+
+    #sedans {
+        border-radius: 8px 8px 0 0;
+    }
+    
+    #luxury {
+        border-radius: 0 0 8px 8px;
+    }
+
+    .button {
+        position: static;
+        margin-top: 50px;
+    }
+
+    p {
+        line-height: 25px;
+    }
+
+    #sedans p {
+        padding-right: 10px;
+    }
+    
+    #luxury p {
+        padding-right: 20px;
+    }
+
+}
+
+@media (max-width: 375px)  {
+    .container {
+        width: 100%;
+    }
+}
